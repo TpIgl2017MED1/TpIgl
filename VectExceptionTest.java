@@ -14,7 +14,7 @@ public class VectExceptionTest {
 	{   VectorHelper o =new VectorHelper();
 		 int[]v1=new int []{1,0,3};
 		   int []v2=new int [] {4,2,6};
-		   try {o.sommerV(v1,v2); fail("Vecteurs de tailles différentes"); }
+		   try {o.sommerV(v1,v2); fail("Vecteurs de tailles diffÃ©rentes"); }
 	catch(IllegalArgumentException aExp)
 	{ assert(aExp.getMessage().contains("negative number")); } }*/
 	
@@ -34,7 +34,7 @@ public class VectExceptionTest {
 		try {
 			obj.sommerV(v1,v2);
 		} catch (VectException e) {
-			assert(e.getMessage().contains("Vecteurs de tailles différentes")); }
+			assert(e.getMessage().contains("Vecteurs de tailles diffÃ©rentes")); }
 		}
 	*/
 	
@@ -45,7 +45,7 @@ public class VectExceptionTest {
 	try
 	{
 	VectorHelper a = new VectorHelper();
-	int[] table1 = {1,2,5};
+	int[] table1 = {1,2,3,4,5};
 	int[] table2 = {1,2};
 	a.sommerV(table1, table2);
 	
@@ -53,7 +53,7 @@ public class VectExceptionTest {
 	}
 	catch(VectException e)
 	{
-	assert(e.getMessage().contains("Vecteurs de tailles différentes"));
+	assert(e.getMessage().contains("Vecteurs de tailles diffÃ©rentes"));
 	}
 	}
 
