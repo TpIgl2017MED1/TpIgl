@@ -45,7 +45,7 @@ public class VectExceptionTest {
 	try
 	{
 	VectorHelper a = new VectorHelper();
-	int[] table1 = {1,2,3};
+	int[] table1 = {1,2,5};
 	int[] table2 = {1,2};
 	a.sommerV(table1, table2);
 	
