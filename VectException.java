@@ -5,9 +5,9 @@ package APP2;
  * @author ua
  *example of use :when we want to sum the elements of two vectors
  */
-public class VectException  extends Exception {
+public class VectException  extends Exception {/*changes from moi1 */
 	public VectException () {
-		super("Vecteurs de tailles différentes");
+		super("Vecteurs de tailles diffÃ©rentes");
 	}
 
 }
