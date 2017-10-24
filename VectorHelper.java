@@ -1,6 +1,6 @@
 package APP2;
 
-public class VectorHelper {
+public class VectorHelper { 
 
 /**
  * this function sort elements of vector from the biggest to the smallest
