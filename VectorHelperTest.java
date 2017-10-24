@@ -5,7 +5,7 @@ import org.junit.Test;
 import APP2.VectException;
 import APP2.VectorHelper;
 
-public class VectorHelperTest {// to change the commits
+public static class VectorHelperTest {// to change the commits
 
 	@Test
 	public void testTrieVect() {
@@ -33,7 +33,7 @@ public class VectorHelperTest {// to change the commits
 	}
 
 	@Test 
-	// you want to ask about the test with just 3,5,9 §§§
+	// you want to ask about the test with just 3,5,9 Â§Â§Â§
 	public void testInverse() {
 		VectorHelper o = new VectorHelper();
 		   int[]v1=new int []{1,3,5};
